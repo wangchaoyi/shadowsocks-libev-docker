@@ -81,5 +81,5 @@ CMD ss-server -s $SERVER_ADDR \
               -d $DNS_ADDR \
               -d $DNS_ADDR_2 \
               -u \
-              --plugin-opts "obfs=http"
+              --plugin-opts "obfs=http" \
               $ARGS
